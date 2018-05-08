@@ -1,0 +1,30 @@
+*{
+  color: white;
+}
+body{
+  background-image: url(spiderman.jpg);
+}
+h1{
+  text-align: center;
+}
+#profilePic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4{
+  text-align: center;
+}
+.descriptions{
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 930px) {
+    body {
+        background-image: url(spideylogo.jpg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
